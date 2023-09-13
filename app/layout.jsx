@@ -1,9 +1,14 @@
 import Script from 'next/script'
 import './global.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 export const metadata = {
   title: {
     default: "Dilip Kumar | Frontend Web Developer",
     template: "%s | Dilip Kumar"
+  },
+  icons: {
+    icon: '/favicon.png',
   },
   description: "Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.",
   robots: "follow, index",
@@ -37,7 +42,7 @@ export const metadata = {
         url: '/og-image.png',
         width: 1800,
         height: 1600,
-        alt: 'My custom alt',
+        alt: 'Dilip Kumar Website',
       },
     ],
     locale: 'en_US',
