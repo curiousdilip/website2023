@@ -22,7 +22,7 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://www.dilipmaurya.in'),
+  // metadataBase: new URL('https://www.dilipmaurya.in'),
   alternates: {
     canonical: '/',
   },
