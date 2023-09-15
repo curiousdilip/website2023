@@ -50,6 +50,7 @@ const Header = () => {
                             alt="Dilip Logo"
                             width={40}
                             height={40}
+                            priority="true"
                         />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-header" aria-controls="main-header" aria-expanded="false" aria-label="Toggle navigation">

@@ -4,6 +4,7 @@ import './global.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 export const metadata = {
   title: {
@@ -82,7 +83,10 @@ export default function RootLayout({ children }) {
       />
       <body>
         <Header />
-        {children}</body>
+        {children}
+        <Footer />
+      </body>
+
     </html>
   )
 }

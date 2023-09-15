@@ -1,0 +1,23 @@
+footer {
+    position: relative;
+}
+
+footer .footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+
+}
+
+footer .footer .copyright {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+footer .footer .follow-me a {
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+}
