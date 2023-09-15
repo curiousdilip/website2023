@@ -1,7 +1,10 @@
+
 import Script from 'next/script'
 import './global.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import Header from './components/Header';
+
 export const metadata = {
   title: {
     default: "Dilip Kumar | Frontend Web Developer",
@@ -77,7 +80,9 @@ export default function RootLayout({ children }) {
           })
         }}
       />
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}</body>
     </html>
   )
 }
