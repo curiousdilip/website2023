@@ -1,16 +1,43 @@
 #home {
-    height: 100vh;
-    display: flex;
     align-items: center;
+    margin-top: 0;
 }
 
 #home p {
     margin-bottom: 16px !important;
 }
 
+#home .shortcut li {
+    margin-bottom: 5px;
+}
+
+#home .shortcut li a i {
+    margin-right: 10px;
+}
+
+#home .shortcut li a {
+    color: #000;
+}
+
+#home .shortcut li a i.bi-tools {
+    color: black;
+}
+
+#home .shortcut li a i.bi-collection {
+    color: purple;
+}
+
+#home .shortcut li a i.bi-search {
+    color: blue;
+}
+
+#home .shortcut li a i.bi-briefcase {
+    color: brown;
+}
+
 @media (max-width:768px) {
     #home {
         height: auto;
-        margin: 20px 0;
+        margin-top: 100px;
     }
 }

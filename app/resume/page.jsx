@@ -5,9 +5,23 @@ export const metadata = {
 }
 const page = () => {
     return (
-        <div>
+        <>
+            <section id="resume">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="heading">
+                                <h1>
+                                    Resume
+                                </h1>
 
-        </div>
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
     )
 }
 

@@ -48,8 +48,8 @@ const Header = () => {
                         <Image
                             src={logoImage}
                             alt="Dilip Logo"
-                            width={40}
-                            height={40}
+                            width={45}
+                            height={45}
                             priority="true"
                         />
                     </Link>
@@ -58,11 +58,6 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="main-header">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className={`nav-item ${isActive('/')}`}>
-                                <Link href="/" className='nav-link'>
-                                    Home
-                                </Link>
-                            </li>
                             <li className={`nav-item ${isActive('/snippets')}`}>
                                 <Link href="/snippets" className="nav-link">
                                     Snippets

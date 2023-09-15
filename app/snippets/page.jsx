@@ -5,9 +5,25 @@ export const metadata = {
 }
 const page = () => {
     return (
-        <div>
+        <>
+            <section id="snippets">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="heading">
+                                <h1>
+                                    Snippets
+                                </h1>
+                                <p>Reuseable code snippets collected by me
 
-        </div>
+                                </p>
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
     )
 }
 

@@ -26,4 +26,27 @@ ul li a {
 
 .container {
     max-width: 1024px !important;
+
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    margin-top: 70px;
+    /* align-items: center;/ */
+    position: relative;
+}
+
+/* .heading {
+    position: absolute;
+    top: 70px;
+    /* width: 1024px; */
+/* margin: 0 auto; }*/
+.heading p {
+    margin: 10px 0 !important;
+}
+
+.heading hr {
+    border: 1.5px solid black;
+    opacity: 1;
 }
