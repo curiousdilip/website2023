@@ -1,0 +1,11 @@
+.navbar {
+    background-color: #fff;
+}
+
+.scrolled .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.scrolled .navbar .nav-link {
+    color: #fff;
+}

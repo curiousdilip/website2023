@@ -3,9 +3,9 @@ import React from 'react'
 import { useEffect, useState } from "react";
 import { useRouter } from 'next/navigation';
 import classnames from 'classnames';
+import './header.css'
 import Image from 'next/image';
-import Link from 'next/link'; // Import Link from Next.js
-
+import Link from 'next/link';
 import logoDark from "../../public/logo-black.svg"
 import logoLight from "../../public/logo-white.svg"
 
@@ -58,11 +58,6 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="main-header">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className={`nav-item ${isActive('/snippets')}`}>
-                                <Link href="/snippets" className="nav-link">
-                                    Snippets
-                                </Link>
-                            </li>
                             <li className={`nav-item ${isActive('/projects')}`}>
                                 <Link href="/projects" className="nav-link">
                                     Projects
@@ -76,6 +71,11 @@ const Header = () => {
                             <li className={`nav-item ${isActive('/resume')}`}>
                                 <Link href="/resume" className="nav-link">
                                     Resume
+                                </Link>
+                            </li>
+                            <li className={`nav-item ${isActive('/contact')}`}>
+                                <Link href="/contact" className="nav-link">
+                                    Contact
                                 </Link>
                             </li>
                         </ul>

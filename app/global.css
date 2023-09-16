@@ -30,7 +30,7 @@ ul li a {
 }
 
 section {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     margin-top: 70px;
     /* align-items: center;/ */

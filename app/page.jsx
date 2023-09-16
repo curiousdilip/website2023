@@ -21,7 +21,9 @@ const page = () => {
               </ul>
             </div>
             <div className="col-md-4">
-              <ProfileCard />
+              <div className="side-card">
+                <ProfileCard />
+              </div>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 #home {
     align-items: center;
     margin-top: 0;
+    height: 100vh;
 }
 
 #home p {
@@ -39,5 +40,9 @@
     #home {
         height: auto;
         margin-top: 100px;
+    }
+
+    .side-card {
+        display: none;
     }
 }
