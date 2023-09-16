@@ -3,6 +3,7 @@ export const metadata = {
     title: "Resume",
 
 }
+import "./resume.css"
 const page = () => {
     return (
         <>
@@ -19,8 +20,13 @@ const page = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="row">
+                        <div className="col-md-12">
+                            <iframe src="/resume.pdf" frameBorder="0" width="100%" height="400"></iframe>
+                        </div>
+                    </div>
                 </div>
-            </section>
+            </section >
         </>
     )
 }

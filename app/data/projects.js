@@ -1,18 +1,10 @@
 export const projects = [
     {
-        title: 'Pradhanmantri Sangrahalaya',
-        description: `The Pradhanmantri Sangrahalaya in New Delhi is a tribute by our nation to the Prime Ministers who rebuilt India after Independence`,
-        imgSrc: '/projects/pmsangrahalaya.jpg',
-        href: 'https://www.pmsangrahalaya.gov.in/',
-        tech: ["HTML", "CSS", "Javascript"]
-    },
-    {
-        title: 'Bizox Consultancy',
-        description: `Bizox Consultancy is a global IT solution company. We have been providing services in the fields of technology development and Internet marketing since 2016.`,
-        imgSrc: '/projects/bizox.jpg',
-        href: 'https://www.bizoxconsultancy.com',
-        tech: ["Wordpress"]
-
+        title: 'Ramen Paul',
+        description: `Trained in England (1993) France(1994) and U.S. (1995-98) Teaching music since last 15 years,authorized teacher of Trinity college, Rock school, Rock and Pop and Royal college, London. `,
+        imgSrc: '/projects/ramenpaul.png',
+        href: 'http://ramenpaul.com',
+        tech: ["Reactjs", "Nextjs"]
 
     },
     {
@@ -56,6 +48,13 @@ export const projects = [
 
     },
     {
+        title: 'Pradhanmantri Sangrahalaya',
+        description: `The Pradhanmantri Sangrahalaya in New Delhi is a tribute by our nation to the Prime Ministers who rebuilt India after Independence`,
+        imgSrc: '/projects/pmsangrahalaya.jpg',
+        href: 'https://www.pmsangrahalaya.gov.in/',
+        tech: ["HTML", "CSS", "Javascript"]
+    },
+    {
         title: 'Grace Fellowship Church',
         description: `Grace Fellowship Church, Gwthar NW are the community of God, serving People God’s children in spirit and being.`,
         imgSrc: '/projects/grace fellowship.jpg',
@@ -82,12 +81,5 @@ export const projects = [
         tech: ["Wordpress"]
 
     },
-    {
-        title: 'Ramen Paul',
-        description: `Trained in England (1993) France(1994) and U.S. (1995-98) Teaching music since last 15 years,authorized teacher of Trinity college, Rock school, Rock and Pop and Royal college, London. `,
-        imgSrc: '/projects/ramenpaul.png',
-        href: 'http://ramenpaul.com',
-        tech: ["Reactjs", "Nextjs"]
 
-    },
 ]
