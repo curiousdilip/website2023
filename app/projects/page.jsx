@@ -1,6 +1,7 @@
 import React from 'react';
 import { projects } from '../data/projects';
 import './projects.css';
+import Image from 'next/image';
 
 export const metadata = {
     title: 'Projects',
@@ -24,7 +25,13 @@ const Page = () => {
                         <div className="projects">
                             {projects.map((project, index) => (
                                 <div className="project" key={index}>
-                                    <img src={project.imgSrc} alt={project.title} />
+                                    <Image
+                                        src={project.imgSrc}
+                                        alt={project.title}
+                                        width={1920}
+                                        height={1080}
+                                        priority="true"
+                                    />
                                     <div className="details">
                                         <h3 className="p-title">{project.title}</h3>
                                         <p className="description">{project.description}</p>
