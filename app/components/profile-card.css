@@ -1,49 +1,64 @@
-#profile-card .profile-box {
+.profile-box {
     /* padding: 10px; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* border: 0.2px solid; */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 
 }
 
-#profile-card .profile-box .img-box {
+.profile-box .img-box {
     border-bottom: 1px solid;
 }
 
-#profile-card .profile-box .img-box img {
+/* .profile-box .img-box img {
     /* border: 1px solid; */
-    border-radius: 10px;
-}
+/* border-radius: 10px; */
+/* } */
 
-#profile-card .profile-box .details {
+.profile-box .details {
     padding: 20px;
 }
 
-#profile-card .profile-box .details .name h2 {
+.profile-box .details .name h2 {
     font-weight: 800;
     font-size: 20px;
 }
 
-#profile-card .profile-box .details .name h4 {
+.profile-box .details .name h4 {
     padding: 10px 0 !important;
     font-weight: 500;
     font-size: 15px;
 }
 
-#profile-card .profile-box .details i.bi {
+.profile-box .details i.bi {
     margin-top: 16px;
     display: block;
 }
 
-#profile-card .profile-box .details i.bi::before {
+.profile-box .details i.bi::before {
     margin-right: 5px;
 }
 
-#profile-card .profile-box .details .social {
+.profile-box .details .social {
     display: flex;
 
 }
 
-#profile-card .profile-box .details .social i:first-child {
+.profile-box .details .social i:first-child {
     margin-right: 10px;
+}
+
+.line {
+    height: 6px;
+    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.line-1 {
+    height: 6px;
+    background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }

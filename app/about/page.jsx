@@ -1,6 +1,7 @@
 import React from 'react'
 import ProfileCard from '../components/ProfileCard'
 import "./about.css"
+import TimeLine from '../components/TimeLine'
 export const metadata = {
     title: "About",
 
@@ -34,7 +35,7 @@ const page = () => {
                                 </p>
                                 <h4>Professional milestones of my career:
                                 </h4>
-                                <h4 className='italic'>TIMELINE</h4>
+                                <TimeLine />
                                 <p className='reach-me'>You can always reach out to me to have a coffee together and discuss Code, Community or Collaboration. Ping me on Telegram, or reach out to me at curiousdilip@gmail.com.
 
                                 </p>
