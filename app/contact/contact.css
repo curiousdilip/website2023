@@ -1,0 +1,20 @@
+.contact-section iframe {
+    height: 350px;
+}
+
+.social-contact a {
+    display: block;
+    margin: 30px 0 !important;
+}
+
+.social-contact a i {
+    font-size: 40px;
+    padding-right: 20px;
+
+
+}
+
+.social-contact {
+    display: flex;
+    justify-content: flex-start;
+}

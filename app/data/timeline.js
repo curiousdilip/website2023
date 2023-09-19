@@ -1,23 +1,23 @@
 export const timeline = [
     {
-        day: "14 April 2022",
-        description: "My First Project",
+        day: "14th April 2022        ",
+        description: "My First Government Project  ",
         projectName: "Pradhanmantri Sangrahalaya",
-        link: "/"
+        link: "https://www.pmsangrahalaya.gov.in/"
     }, {
-        day: "14 April 2022",
-        description: "My First Project",
-        projectName: "Pradhanmantri Sangrahalaya",
-        link: "/"
+        day: "16th February 2022        ",
+        description: "Landed my first job in ",
+        projectName: "Taknik Bharti",
+        link: "https://www.taknikbharti.com/"
     }, {
-        day: "14 April 2022",
-        description: "My First Project",
-        projectName: "Pradhanmantri Sangrahalaya",
-        link: "/"
+        day: "11th November 2021        ",
+        description: "My First International Project",
+        projectName: "MPAA",
+        link: "https://mpaa.ac.uk/"
     }, {
-        day: "14 April 2022",
-        description: "My First Project",
-        projectName: "Pradhanmantri Sangrahalaya",
-        link: "/"
+        day: "9th September 2019        ",
+        description: "My First Freelance Project",
+        projectName: "NLP Minerals Pvt. Ltd",
+        link: "https://www.nlpminerals.com/"
     }
 ]
