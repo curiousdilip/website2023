@@ -1,305 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
-.resume-box {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    background: #fff;
-    /* margin: 50px; */
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
-    font-family: 'Poppins', sans-serif;
+
+.resume-box .heading {
+    border-bottom: 2px solid black;
+    padding: 10px 0;
+    /* font-weight: 600; */
+    margin-bottom: 10px !important;
 }
 
-.resume-box .left_Side {
-    position: relative;
-    background: #003147;
-    padding: 40px;
+.resume-box ul {
+    padding-left: 2rem !important;
+    list-style: disc !important;
 }
 
-.profiletext {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.profiletext .imgbox {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.profiletext .imgbox img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.profiletext h2 {
-    color: #fff;
-    font-size: 1.6em;
-    margin-top: 20px;
-    text-transform: uppercase;
+.resume-box .title {
     text-align: center;
-    font-weight: 600;
-    line-height: 1.4em;
-}
-
-.profiletext h2 span {
-    font-size: 0.8em;
-    font-weight: 300;
-}
-
-.contactinfo {
-    padding-top: 40px;
-}
-
-.title {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-}
-
-.contactinfo ul {
-    position: relative;
-}
-
-.contactinfo ul li {
-    position: relative;
-    list-style: none;
-    margin: 10px 0;
-    cursor: pointer;
-}
-
-.contactinfo ul li .icon {
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color: #03a9f4;
-}
-
-.contactinfo ul li .icon:hover {
-    animation: rubberBand 0.3s;
-}
-
-.contactinfo ul li a {
-    color: #fff;
-    font-weight: 300;
-    text-decoration: none;
-}
-
-.contactinfo ul li span {
-    color: #fff;
-    font-weight: 300;
-}
-
-.contactinfo.education li {
-    margin-bottom: 15px;
-}
-
-.contactinfo.education h5 {
-    color: #03a9f4;
-    font-weight: 500;
-}
-
-.contactinfo.education h4:nth-child(2) {
-    color: #fff;
-    font-weight: 500;
-}
-
-.contactinfo.education h4 {
-    color: #fff;
-    font-weight: 300;
-}
-
-.contactinfo.language .percent {
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background: #081921;
-    display: block;
-    margin-top: 5px;
-}
-
-.contactinfo.language .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
-}
-
-.container .right_Side {
-    position: relative;
-    background: #fff;
-    padding: 40px;
-}
-
-.about {
-    margin-bottom: 50px;
-}
-
-.about:last-child {
-    margin-bottom: 0;
-}
-
-.title2 {
-    color: #003147;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-
-p {
-    color: #333;
-}
-
-.about .box {
-    display: flex;
-    flex-direction: row;
     margin: 20px 0;
 }
 
-.about .box .year-company {
-    min-width: 160px;
+.resume-box .title h1 {
+    margin-bottom: 10px !important;
 }
 
-.about .box .year-company h5 {
-    text-transform: uppercase;
-    color: #848c90;
-    font-weight: 600;
+.resume-box .title p a {
+    text-decoration: none;
 }
 
-.about .box .text h4 {
-    text-transform: uppercase;
-    color: #2a7da2;
-    font-size: 16px;
-}
 
-.skills .box {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 150px 1fr;
-    justify-content: center;
+.resume-box .work .experience-box .company-time {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.skills .box h4 {
-    text-transform: uppercase;
-    color: #848c99;
-    font-weight: 500;
+
+.resume-box .work .experience-box .role {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.skills .box .percent {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background: #f0f0f0;
-}
-
-.skills .box .percent div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
-}
-
-.interest ul {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.interest ul li {
-    list-style: none;
-    color: #333;
-    font-weight: 500;
-    margin: 10px 0;
-}
-
-.interest ul li .fa {
-    color: #03a9f4;
+.resume-box .work .experience-box .role h5 {
     font-size: 18px;
-    width: 20px;
 }
 
 
-
-@media (max-width: 1000px) {
-    .container {
-        margin: 10px;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .interest ul {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.resume-box .skills .skill-box p {
+    font-weight: 600;
 }
 
-@media (max-width: 600px) {
-    .about .box {
-        flex-direction: column;
-    }
-
-    .about .box .year-company {
-        margin-bottom: 5px;
-    }
-
-    .interest ul {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .skills .box {
-        grid-template-columns: repeat(1, 1fr);
-    }
+.resume-box .skills .skill-box span {
+    font-weight: 300;
 }
 
-@keyframes rubberBand {
-    0% {
-        -webkit-transform: none;
-        transform: none;
-    }
+.resume-box .education .education-box .institute-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    15% {
-        -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
-        transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
-    }
+.resume-box .education .education-box .standard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    30% {
-        -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
-        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
-    }
-
-    45% {
-        -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
-        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
-    }
-
-    60% {
-        -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
-        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
-    }
-
-    75% {
-        -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
-        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
-    }
-
-    100% {
-        -webkit-transform: none;
-        transform: none;
-    }
+.resume-box .education .education-box .standard h5 {
+    font-size: 18px;
 }
