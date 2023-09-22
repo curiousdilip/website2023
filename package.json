@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.5.3",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.11.0",
     "classnames": "^2.3.2",
+    "file-loader": "^6.2.0",
+    "lottie-player": "^1.0.0",
+    "lottie-web": "^5.12.2",
     "next": "13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

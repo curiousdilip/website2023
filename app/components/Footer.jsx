@@ -18,9 +18,6 @@ const Footer = () => {
                                 <Link href="mailto:curiousdilip@gmail.com">
                                     <i className='bi bi-envelope'></i>
                                 </Link>
-                                <Link href="https://facebook.com/curiousdilip">
-                                    <i className='bi bi-facebook'></i>
-                                </Link>
                             </div>
                             <div className="copyright">
                                 <h5>Dilip Kumar | Frontend Web Developer</h5>
