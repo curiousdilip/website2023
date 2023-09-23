@@ -93,34 +93,59 @@ const page = () => {
                                     </div>
                                     <div className="education-box">
                                         <div className="institute-time">
-                                            <h5>Guru Gobind Singh Indraprastha University</h5>
-                                            <p>August 2019 - August 2022</p>
+                                            <h5>Mount Carmel School</h5>
+                                            <p>April 2018 - March 2019</p>
                                         </div>
                                         <div className="standard">
-                                            <h5>Bachelor of Computer Applications</h5>
+                                            <h5>Intermediate</h5>
                                             <p>Dwarka, New Delhi</p>
                                         </div>
                                         <ul >
-                                            <li>Cumulative CGPA : 8.7/10</li>
-                                            <li>Designed College Magazine</li>
+                                            <li>Marks: 74.5%</li>
+                                            <li>Part of Western Music Band</li>
                                         </ul>
                                     </div>
                                     <div className="education-box">
                                         <div className="institute-time">
-                                            <h5>Guru Gobind Singh Indraprastha University</h5>
-                                            <p>August 2019 - August 2022</p>
+                                            <h5>Mount Carmel School</h5>
+                                            <p>April 2016 - March 2017</p>
                                         </div>
                                         <div className="standard">
-                                            <h5>Bachelor of Computer Applications</h5>
+                                            <h5>Matriculation</h5>
                                             <p>Dwarka, New Delhi</p>
                                         </div>
                                         <ul >
-                                            <li>Cumulative CGPA : 8.7/10</li>
-                                            <li>Designed College Magazine</li>
+                                            <li>Cumulative CGPA : 7.6 CGPA</li>
+                                            <li>Part of Western Music Band</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="project">
+                                    <h4 className="heading">
+                                        Projects
+                                    </h4>
+                                    <div className="project-box">
+                                        <div className="project-time">
+                                            <h5>OXSYS | React, Nextjs, Javascript</h5>
+                                            <p>August 2023</p>
+                                        </div>
+                                        <ul >
+                                            <li>Made a website in nextjs that was made on wordpress by me</li>
+                                        </ul>
+                                    </div>
+                                    <div className="project-box">
+                                        <div className="project-time">
+                                            <h5>Ramen Paul | React, Nextjs, Javascript</h5>
+                                            <p>September 2023</p>
+                                        </div>
+                                        <ul >
+                                            <li>My First Website Made of Reactjs</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
+                            <a href="https://drive.google.com/file/d/1wRR0TOt4yD1VavhsBGQ0iyNV9TGoTN9x/view?usp=sharing" className='download-resume' target='_blank'>You Can Download the PDF version of my resume</a>
                         </div>
                     </div>
                 </div>

@@ -68,3 +68,60 @@
 .resume-box .education .education-box .standard h5 {
     font-size: 18px;
 }
+
+
+.resume-box .project .project-box .project-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-resume {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    .company-time {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    .role {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    .role h5 {
+        font-size: 15px !important;
+    }
+
+    .role p {
+        font-size: 14px !important;
+    }
+
+    .institute-time {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    .standard {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+    .standard h5 {
+        font-size: 15px !important;
+    }
+
+    .standard p {
+        font-size: 14px !important;
+    }
+
+    .project-time {
+        flex-direction: column;
+        align-items: start !important;
+    }
+
+}
