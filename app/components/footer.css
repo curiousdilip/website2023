@@ -17,3 +17,10 @@ footer .footer .follow-me a {
     text-decoration: none;
     color: #000;
 }
+
+@media (max-width:768px) {
+    .follow-me {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

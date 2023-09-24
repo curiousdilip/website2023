@@ -26,24 +26,24 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  // metadataBase: new URL('https://www.dilipmaurya.in'),
+  metadataBase: new URL('https://www.dilipmaurya.in'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    images: '/og-image.png',
+    images: '/profilecardimg.jpeg',
     description: "Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.",
     title: 'Dilip Kumar | Frontend Web Developer',
     url: 'https://www.dilipmaurya.in',
     siteName: 'Dilip Kumar | Frontend Web Developer',
     images: [
       {
-        url: '/og-image.png',
+        url: '/profilecardimg.jpeg',
         width: 800,
         height: 600,
       },
       {
-        url: '/og-image.png',
+        url: '/profilecardimg.jpeg',
         width: 1800,
         height: 1600,
         alt: 'Dilip Kumar Website',

@@ -3,8 +3,13 @@ const nextConfig = {
     async headers() {
         return [
             {
+
                 source: '/(.*)',
                 headers: [
+                    {
+                        key: 'nextSafe',
+                        value: 'isDev'
+                    },
                     {
                         key: 'X-Content-Type-Options',
                         value: 'nosniff',
