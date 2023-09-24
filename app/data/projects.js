@@ -8,7 +8,7 @@ export const projects = [
 
     },
     {
-        title: 'OXSYS | Compact Medical Oxygen Generators',
+        title: 'OXSYS.IN',
         description: `Founded in 2021, OXSYS excels in Oxygen generation through modular PSA technology. 70% self-manufactured, strong supply chain, medical Oxygen expertise.`,
         imgSrc: '/projects/oxsys.png',
         href: 'https://oxsys.in',
