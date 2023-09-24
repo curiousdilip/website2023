@@ -2,7 +2,7 @@ export const projects = [
     {
         title: 'Ramen Paul',
         description: `Trained in England (1993) France(1994) and U.S. (1995-98) Teaching music since last 15 years,authorized teacher of Trinity college, Rock school, Rock and Pop and Royal college, London. `,
-        imgSrc: '/projects/ramenpaul.png',
+        imgSrc: '/projects/ramenpaul.jpg',
         href: 'http://ramenpaul.com',
         tech: ["Reactjs", "Nextjs"]
 
@@ -10,7 +10,7 @@ export const projects = [
     {
         title: 'OXSYS.IN',
         description: `Founded in 2021, OXSYS excels in Oxygen generation through modular PSA technology. 70% self-manufactured, strong supply chain, medical Oxygen expertise.`,
-        imgSrc: '/projects/oxsys.png',
+        imgSrc: '/projects/oxsys.jpg',
         href: 'https://oxsys.in',
         tech: ["Reactjs", "Nextjs"]
 
@@ -18,7 +18,7 @@ export const projects = [
     {
         title: 'Rainbow Consultancy',
         description: `Rainbow Consultancy is a consortium of independent professional consultants with a commitment to provide quality training, evaluation and documentation services to our clients.`,
-        imgSrc: '/projects/rainbow.png',
+        imgSrc: '/projects/rainbow.jpg',
         href: 'https://rainbowconsultancy.in',
         tech: ["HTML", "CSS", "Javascript"]
 
@@ -26,7 +26,7 @@ export const projects = [
     {
         title: 'Word of Guidance',
         description: `Word of Guidance is a site of spiritual resources to assist individuals to know the Lord Jesus Christ who is the Light of the World.`,
-        imgSrc: '/projects/wordofguidance.png',
+        imgSrc: '/projects/wordofguidance.jpg',
         href: 'https://wordofguidance.in/',
         tech: ["Wordpress", "Elementor"]
 
@@ -34,7 +34,7 @@ export const projects = [
     {
         title: 'FAAHM - Future and a Hope Ministries',
         description: `Future And A Hope Ministries Inc. was founded in 2008 in San Diego, California. We first started our work as a Children’s Home in Asia from 2009 to 2016 with a set of siblings`,
-        imgSrc: '/projects/faahm.png',
+        imgSrc: '/projects/faahm.jpg',
         href: 'https://www.faahm.org/',
         tech: ["Wordpress", "Elementor"]
 
