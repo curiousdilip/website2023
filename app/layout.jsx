@@ -57,6 +57,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-96YN1MPY3C"></Script>
+      <Script dangerouslySetInnerHTML={{
+        __html: `    window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-96YN1MPY3C');`
+      }}>
+      </Script>
       <Script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
