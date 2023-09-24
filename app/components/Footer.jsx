@@ -11,16 +11,16 @@ const Footer = () => {
                         <div className="col-md-12 text-center">
 
                             <div className="follow-me">
-                                <Link href="https://github.com/curiousdilip"> <i className='bi bi-github'> </i></Link>
-                                <Link href="https://twitter.com/curiousdilip"> <i className='bi bi-twitter-x'> </i></Link>
-                                <Link href="https://www.linkedin.com/in/curiousdilip/">
+                                <Link href="https://github.com/curiousdilip" aria-label="Github"> <i className='bi bi-github'> </i></Link>
+                                <Link href="https://twitter.com/curiousdilip" aria-label="Twitter"> <i className='bi bi-twitter-x'> </i></Link>
+                                <Link href="https://www.linkedin.com/in/curiousdilip/" aria-label="LinkedIn">
                                     <i className='bi bi-linkedin'></i></Link>
-                                <Link href="mailto:curiousdilip@gmail.com">
+                                <Link href="mailto:curiousdilip@gmail.com" aria-label="Email">
                                     <i className='bi bi-envelope'></i>
                                 </Link>
                             </div>
                             <div className="copyright">
-                                <h5>Dilip Kumar | Frontend Web Developer</h5>
+                                <h4>Dilip Kumar | Frontend Web Developer</h4>
                             </div>
                         </div>
                     </div>

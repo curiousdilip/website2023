@@ -10,14 +10,14 @@ const page = () => {
         <div className="container">
           <div className="row align-items-center" >
             <div className="col-md-8">
-              <h1 className='mb-2'>Dilip Kumar 😀</h1>
-              <p>Good day! I'm glad you're here. I'm Dilip Kumar - Looking for Opportunity in Frontend Web Development.</p>
-              <p>I am a frontend web developer with more than 1 year of experience, I'm very passionate about technology and computers. I've previously done freelance work. I have a strong interest in computers and technology. I can learn new things quickly, I can be relied upon, and my interests are in frontend web development.</p>
+              <h1 className='mb-3'>Hi everyone! <span className="wave">👋🏾</span> </h1>
+              <p>I'm Dilip Kumar Maurya, a frontend web developer with over a year of experience. I'm currently working as a Web Content Executive at the World Health Organization.</p>
+              <p>I'm passionate about technology and computers, and I'm always eager to learn new things. I've previously done freelance work, and I'm always looking for new challenges.</p>
               <ul className='shortcut'>
                 <li><Link href="/projects">    <i className='bi bi-tools'></i>What I have Built?</Link></li>
-                <li><Link href="/snippets">    <i className='bi bi-collection'></i>Useful snippets collected by me</Link></li>
                 <li><Link href="/about">    <i className='bi bi-search'></i>More about myself</Link></li>
                 <li><Link href="/resume">    <i className='bi bi-briefcase'></i>My Latest Resume</Link></li>
+                <li><Link href="/contact">    <i className='bi bi-telephone'></i>Contact Me</Link></li>
               </ul>
             </div>
             <div className="col-md-4">

@@ -31,6 +31,7 @@ const Page = () => {
                                         width={1920}
                                         height={1080}
                                         priority="true"
+                                        className='img-fluid'
                                     />
                                     <div className="details">
                                         <h3 className="p-title">{project.title}</h3>

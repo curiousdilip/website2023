@@ -1,5 +1,6 @@
 import React from 'react'
 import "./profile-card.css"
+import Image from 'next/image'
 const ProfileCard = () => {
     return (
         <>
@@ -7,7 +8,17 @@ const ProfileCard = () => {
 
             <div className="profile-box">
                 <div className="img-box">
-                    <img src="/og-image.png" alt="" className='img-fluid' />
+                    {/* <img src="/og-image.png" alt="" className='img-fluid' /> */}
+                    <Image
+                        src="/profilecardimg.jpeg"
+                        alt='Profile Card Image'
+                        height={217}
+                        width={341}
+                        className='img-fluid'
+                        style={{
+                            objectFit: "contain"
+                        }}
+                    />
                 </div>
                 <div className="details">
                     <div className="name"><h2>Dilip Kumar </h2>

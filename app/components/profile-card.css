@@ -10,11 +10,6 @@
     border-bottom: 1px solid;
 }
 
-/* .profile-box .img-box img {
-    /* border: 1px solid; */
-/* border-radius: 10px; */
-/* } */
-
 .profile-box .details {
     padding: 20px;
 }
@@ -61,4 +56,11 @@
     background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+@media (max-width:768px) {
+    .profile-box .details {
+        display: none;
+    }
+
 }

@@ -5,6 +5,10 @@
     font-family: Verdana, sans-serif;
 }
 
+*::-webkit-scrollbar {
+    display: none;
+}
+
 h1,
 h2,
 h3,
@@ -13,6 +17,10 @@ h5,
 h6,
 p {
     margin: 0 !important;
+}
+
+p {
+    font-size: 18px;
 }
 
 ul {

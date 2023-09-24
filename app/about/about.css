@@ -10,3 +10,10 @@
 #about .about-section .reach-me {
     margin: 24px 0 !important;
 }
+
+@media (max-width:768px) {
+    #about .about-section h2 {
+        margin: 32px 0 !important;
+    }
+
+}
