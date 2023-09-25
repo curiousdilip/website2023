@@ -83,6 +83,10 @@
 }
 
 @media (max-width:768px) {
+    #resume {
+        margin-top: 80px;
+    }
+
     .company-time {
         flex-direction: column;
         align-items: start !important;

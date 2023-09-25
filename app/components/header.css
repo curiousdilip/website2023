@@ -9,3 +9,19 @@
 .scrolled .navbar .nav-link {
     color: #fff;
 }
+
+.navbar .navbar-toggler {
+    border: 1px solid black;
+}
+
+.scrolled .navbar .navbar-toggler {
+    border: 1px solid white;
+}
+
+.navbar .navbar-toggler svg {
+    color: #000;
+}
+
+.scrolled .navbar .navbar-toggler svg {
+    color: #fff;
+}

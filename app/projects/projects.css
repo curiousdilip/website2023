@@ -63,4 +63,8 @@
     .projects {
         grid-template-columns: auto;
     }
+
+    #projects {
+        margin-top: 80px;
+    }
 }

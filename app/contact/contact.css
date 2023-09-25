@@ -17,3 +17,10 @@
     font-size: 30px;
     padding-right: 20px;
 }
+
+@media (max-width:768px) {
+    #contact {
+        margin-top: 80px;
+    }
+
+}
