@@ -8,16 +8,12 @@ const ProfileCard = () => {
 
             <div className="profile-box">
                 <div className="img-box">
-                    {/* <img src="/og-image.png" alt="" className='img-fluid' /> */}
                     <Image
                         src="/profilecardimg.jpeg"
                         alt='Profile Card Image'
-                        height={217}
-                        width={341}
+                        height={200}
+                        width={500}
                         className='img-fluid'
-                        style={{
-                            objectFit: "contain"
-                        }}
                     />
                 </div>
                 <div className="details">

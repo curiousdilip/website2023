@@ -28,8 +28,8 @@ const Page = () => {
                                     <Image
                                         src={project.imgSrc}
                                         alt={project.title}
-                                        width={1920}
-                                        height={1080}
+                                        width={500}
+                                        height={300}
                                         priority="true"
                                         className='img-fluid'
                                     />
