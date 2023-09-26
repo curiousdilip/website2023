@@ -5,6 +5,7 @@ import { useState } from 'react'
 //     title: "Contact",
 // }
 import "./contact.css"
+import { Helmet } from 'react-helmet'
 const page = () => {
     const [formSubmitted, setFormSubmitted] = useState(false);
 
@@ -41,6 +42,9 @@ const page = () => {
     }
     return (
         <>
+            <Helmet>
+                <title>Contact | Dilip Kumar</title>
+            </Helmet>
             <section id="contact">
                 <div className="container">
                     <div className="row">
