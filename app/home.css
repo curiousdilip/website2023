@@ -1,7 +1,8 @@
 #home {
     align-items: center;
-    margin-top: 0;
-    height: 100vh;
+    /* margin-top: 0; */
+    height: auto;
+    padding: 1% 0;
 }
 
 #home p {

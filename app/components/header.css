@@ -2,6 +2,18 @@
     background-color: #fff;
 }
 
+.navbar .navbar-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 16.6vw;
+}
+
+
+.scrolled .navbar .navbar-brand h2 {
+    color: #fff;
+}
+
 .scrolled .navbar {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -24,4 +36,11 @@
 
 .scrolled .navbar .navbar-toggler svg {
     color: #fff;
+}
+
+@media (max-width:768px) {
+    .navbar .navbar-brand {
+        width: 51vw;
+    }
+
 }
