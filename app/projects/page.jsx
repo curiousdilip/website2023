@@ -5,11 +5,6 @@ import Image from 'next/image';
 
 export const metadata = {
     title: "Projects",
-    description: "Project page shows the projects that Dilip Kumar completed at his workplace or as a freelance developer",
-    openGraph: {
-        title: "Projects",
-        description: "Project page shows the projects that Dilip Kumar completed at his workplace or as a freelance developer",
-    }
 };
 
 

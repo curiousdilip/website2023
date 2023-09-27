@@ -14,10 +14,7 @@ export const metadata = {
   icons: {
     icon: '/favicon.png',
   },
-  description: {
-    default: "Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.",
-    template: "%s"
-  },
+  description: "Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.",
   robots: "follow, index",
   applicationName: 'Dilip Kumar ',
   referrer: 'origin-when-cross-origin',

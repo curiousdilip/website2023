@@ -4,11 +4,6 @@ import "./about.css"
 import TimeLine from '../components/TimeLine'
 export const metadata = {
     title: "About",
-    description: "About Dilip Kumar shows how he started hi career as frontend web developer",
-    openGraph: {
-        title: "About",
-        description: "About Dilip Kumar shows how he started hi career as frontend web developer",
-    }
 };
 const page = () => {
     return (

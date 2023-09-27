@@ -1,11 +1,7 @@
 import React from 'react'
 export const metadata = {
     title: "Resume",
-    description: "Showcasing Dilip Kumar's works, skills and experience in different companies over the years.",
-    openGraph: {
-        title: "Resume",
-        description: "Showcasing Dilip Kumar's works, skills and experience in different companies over the years.",
-    }
+
 }
 import "./resume.css"
 const page = () => {
