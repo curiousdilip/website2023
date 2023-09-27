@@ -18,6 +18,12 @@
     margin: 20px 0;
 }
 
+.resume-box .title .links {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
 .resume-box .title h1 {
     margin-bottom: 10px !important;
 }

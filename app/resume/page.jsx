@@ -26,7 +26,7 @@ const page = () => {
                                 <div className="title ">
                                     <h1>Dilip Kumar Maurya</h1>
                                     <div className="links">
-                                        <p><a href="tel:9899742615">+91 9899742615 </a> | <a href="mailto:curiousdilip@gmail.com">curiousdilip@gmail.com</a> | <a href="https://www.linkedin.com/in/curiousdilip/">Website</a> | <a href="#">LinkedIn</a> | <a href="https://github.com/curiousdilip">Github</a> </p>
+                                        <p><a href="tel:9899742615">+91 9899742615 </a> | <a href="mailto:curiousdilip@gmail.com">curiousdilip@gmail.com</a> | <a href="https://www.dilipmaurya.in" target='_blank'>Website</a> | <a href="https://www.linkedin.com/in/curiousdilip/" target='_blank'>www.linkedin.com/in/curiousdilip</a> | <a href="https://github.com/curiousdilip" target='_blank'>www.github.com/curiousdilip</a> </p>
                                     </div>
                                 </div>
                                 <div className="work">
