@@ -14,6 +14,11 @@
     padding: 20px;
 }
 
+.profile-box .details a {
+    text-decoration: none;
+    color: #000;
+}
+
 .profile-box .details .name h2 {
     font-weight: 800;
     font-size: 20px;
