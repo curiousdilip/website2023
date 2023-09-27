@@ -9,12 +9,15 @@ import Footer from './components/Footer';
 export const metadata = {
   title: {
     default: "Dilip Kumar | Frontend Web Developer",
-    template: "%s | Dilip Kumar"
+    template: "%s | Dilip Kumar Maurya"
   },
   icons: {
     icon: '/favicon.png',
   },
-  description: "Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.",
+  description: {
+    default: "Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.",
+    template: "%s"
+  },
   robots: "follow, index",
   applicationName: 'Dilip Kumar ',
   referrer: 'origin-when-cross-origin',
@@ -32,7 +35,10 @@ export const metadata = {
   },
   openGraph: {
     images: '/profilecardimg.jpeg',
-    description: "Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.",
+    description: {
+      default: "Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.",
+      template: "%s"
+    },
     title: 'Dilip Kumar | Frontend Web Developer',
     url: 'https://www.dilipmaurya.in',
     siteName: 'Dilip Kumar | Frontend Web Developer',
