@@ -9,8 +9,11 @@
     width: 16.6vw;
 }
 
+.navbar .navbar-brand h1 {
+    font-size: 2rem;
+}
 
-.scrolled .navbar .navbar-brand h2 {
+.scrolled .navbar .navbar-brand h1 {
     color: #fff;
 }
 
@@ -41,6 +44,10 @@
 @media (max-width:768px) {
     .navbar .navbar-brand {
         width: 51vw;
+    }
+
+    .navbar .navbar-brand h1 {
+        font-size: calc(1.325rem + .9vw);
     }
 
 }

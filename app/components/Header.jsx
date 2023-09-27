@@ -60,7 +60,7 @@ const Header = () => {
                             height={45}
                             priority="true"
                         />
-                        <h2>Dilip Kumar</h2>
+                        <h1>Dilip Kumar</h1>
                     </Link>
                     <button
                         className="navbar-toggler"

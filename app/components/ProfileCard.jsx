@@ -18,7 +18,7 @@ const ProfileCard = () => {
                 </div>
                 <div className="details">
                     <div className="name"><h2>Dilip Kumar </h2>
-                        <h4>Frontend Web Developer</h4></div>
+                        <h3>Frontend Web Developer</h3></div>
                     <div className="work">
                         <i className='bi bi-briefcase'> Looking for Opportunity</i>
                     </div>
