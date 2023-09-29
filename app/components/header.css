@@ -43,7 +43,7 @@
 
 @media (max-width:768px) {
     .navbar .navbar-brand {
-        width: 51vw;
+        width: 180px;
     }
 
     .navbar .navbar-brand h1 {
