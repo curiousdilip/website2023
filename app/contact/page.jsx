@@ -1,12 +1,9 @@
-"use client"
-import React from 'react'
-import { useState } from 'react'
-// export const metadata = {
-//     title: "Contact",
-// }
-import "./contact.css"
-import { Helmet } from 'react-helmet'
-const page = () => {
+"use client";
+import React, { useState } from "react";
+import "./contact.css";
+import { Helmet } from "react-helmet";
+
+const Page = () => {
     const [formSubmitted, setFormSubmitted] = useState(false);
 
     const handleSubmit = async (event) => {
@@ -14,9 +11,9 @@ const page = () => {
 
         try {
             const response = await fetch(
-                'https://script.google.com/macros/s/AKfycbyLgS0NuKwRbDWDoFgz2FROEOQk6Tc3D-9uxazp4EQct-ENewCyfyRNkmZdB9sdadRZ/exec',
+                "https://script.google.com/macros/s/AKfycbyLgS0NuKwRbDWDoFgz2FROEOQk6Tc3D-9uxazp4EQct-ENewCyfyRNkmZdB9sdadRZ/exec",
                 {
-                    method: 'POST',
+                    method: "POST",
                     body: new FormData(event.target),
                 }
             );
@@ -25,21 +22,21 @@ const page = () => {
                 // If the response is successful, set the formSubmitted state to true
                 setFormSubmitted(true);
                 // Display an alert box
-                window.alert('Thank You! \n Form submitted successfully!');
+                window.alert("Thank You! \n Form submitted successfully!");
+                // Reset the formSubmitted state after a brief delay (e.g., 2 seconds)
+                setTimeout(() => {
+                    setFormSubmitted(false);
+                }, 2000);
             } else {
                 // Handle errors here if needed
-                console.error('Form submission failed.');
+                console.error("Form submission failed.");
             }
         } catch (error) {
             // Handle network errors here if needed
-            console.error('Network error:', error);
+            console.error("Network error:", error);
         }
     };
 
-    if (formSubmitted) {
-        // If the form has been successfully submitted, reload the page
-        window.location.reload();
-    }
     return (
         <>
             <Helmet>
@@ -50,49 +47,54 @@ const page = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="heading">
-                                <h1>
-                                    Contact
-                                </h1>
-
+                                <h1>Contact</h1>
                                 <hr />
                             </div>
                         </div>
                     </div>
                     <div className="row align-items-center">
                         <div className="col-md-8">
-                            <form action="https://script.google.com/macros/s/AKfycbyLgS0NuKwRbDWDoFgz2FROEOQk6Tc3D-9uxazp4EQct-ENewCyfyRNkmZdB9sdadRZ/exec" method="POST" onSubmit={handleSubmit} >
-                                <input
-                                    type="name"
-                                    name="name"
-                                    className="form-control mb-3"
-                                    placeholder="Name"
-                                    required
-                                />
-                                <input
-                                    type="email"
-                                    name="email"
-                                    className="form-control mb-3"
-                                    placeholder="Email"
-                                    required
-                                />
-                                <input
-                                    type="tel"
-                                    name="phone"
-                                    className="form-control mb-3"
-                                    placeholder="Phone number"
-                                    required
-                                />
-                                <textarea
-                                    name="message"
-                                    className="form-control mb-3"
-                                    rows="3"
-                                    placeholder="Your Message"
-                                ></textarea>
+                            {!formSubmitted ? (
+                                <form
+                                    action="https://script.google.com/macros/s/AKfycbyLgS0NuKwRbDWDoFgz2FROEOQk6Tc3D-9uxazp4EQct-ENewCyfyRNkmZdB9sdadRZ/exec"
+                                    method="POST"
+                                    onSubmit={handleSubmit}
+                                >
+                                    <input
+                                        type="name"
+                                        name="name"
+                                        className="form-control mb-3"
+                                        placeholder="Name"
+                                        required
+                                    />
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        className="form-control mb-3"
+                                        placeholder="Email"
+                                        required
+                                    />
+                                    <input
+                                        type="tel"
+                                        name="phone"
+                                        className="form-control mb-3"
+                                        placeholder="Phone number"
+                                        required
+                                    />
+                                    <textarea
+                                        name="message"
+                                        className="form-control mb-3"
+                                        rows="3"
+                                        placeholder="Your Message"
+                                    ></textarea>
 
-                                <button type="submit" className="btn btn-primary">
-                                    Send Now
-                                </button>
-                            </form>
+                                    <button type="submit" className="btn btn-primary">
+                                        Send Now
+                                    </button>
+                                </form>
+                            ) : (
+                                <p>Thank you for submitting the form!</p>
+                            )}
                         </div>
                         <div className="col-md-4">
                             <div className="details">
@@ -131,7 +133,7 @@ const page = () => {
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
-export default page
+export default Page;
