@@ -1,137 +1,134 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-
-
+#resume {
+  height: auto;
+  margin-bottom: 22vh;
+}
 .resume-box .heading {
-    border-bottom: 2px solid black;
-    padding: 10px 0;
-    /* font-weight: 600; */
-    margin-bottom: 10px !important;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+  /* font-weight: 600; */
+  margin-bottom: 10px !important;
 }
 
 .resume-box ul {
-    padding-left: 2rem !important;
-    list-style: disc !important;
+  padding-left: 2rem !important;
+  list-style: disc !important;
 }
 
 .resume-box .title {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .resume-box .title .links {
-    display: flex;
-    width: 80%;
-    margin: auto;
+  display: flex;
+  width: 80%;
+  margin: auto;
 }
 
 .resume-box .title h1 {
-    margin-bottom: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .resume-box .title p a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 .resume-box .work .experience-box .company-time {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
 .resume-box .work .experience-box .role {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .resume-box .work .experience-box .role h5 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-
 .resume-box .skills .skill-box p {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .resume-box .skills .skill-box span {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .resume-box .education .education-box .institute-time {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .resume-box .education .education-box .standard {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .resume-box .education .education-box .standard h5 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-
 .resume-box .project .project-box .project-time {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .download-resume {
-    display: block;
-    text-align: center;
-    text-decoration: none;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
-@media (max-width:768px) {
-    #resume {
-        margin-top: 80px;
-    }
+@media (max-width: 768px) {
+  #resume {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
 
-    .company-time {
-        flex-direction: column;
-        align-items: start !important;
-    }
+  .company-time {
+    flex-direction: column;
+    align-items: start !important;
+  }
 
-    .role {
-        flex-direction: column;
-        align-items: start !important;
-    }
+  .role {
+    flex-direction: column;
+    align-items: start !important;
+  }
 
-    .role h5 {
-        font-size: 15px !important;
-    }
+  .role h5 {
+    font-size: 15px !important;
+  }
 
-    .role p {
-        font-size: 14px !important;
-    }
+  .role p {
+    font-size: 14px !important;
+  }
 
-    .institute-time {
-        flex-direction: column;
-        align-items: start !important;
-    }
+  .institute-time {
+    flex-direction: column;
+    align-items: start !important;
+  }
 
-    .standard {
-        flex-direction: column;
-        align-items: start !important;
-    }
+  .standard {
+    flex-direction: column;
+    align-items: start !important;
+  }
 
-    .standard h5 {
-        font-size: 15px !important;
-    }
+  .standard h5 {
+    font-size: 15px !important;
+  }
 
-    .standard p {
-        font-size: 14px !important;
-    }
+  .standard p {
+    font-size: 14px !important;
+  }
 
-    .project-time {
-        flex-direction: column;
-        align-items: start !important;
-    }
-
+  .project-time {
+    flex-direction: column;
+    align-items: start !important;
+  }
 }

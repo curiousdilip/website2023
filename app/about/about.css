@@ -1,23 +1,28 @@
+#about {
+  height: auto;
+  margin-bottom: 25vh;
+}
+
 #about .about-section h2 {
-    margin-bottom: 32px !important;
+  margin-bottom: 32px !important;
 }
 
 #about .about-section h4 {
-    margin-top: 38px !important;
-    margin-bottom: 10px !important;
+  margin-top: 38px !important;
+  margin-bottom: 10px !important;
 }
 
 #about .about-section .reach-me {
-    margin: 24px 0 !important;
+  margin: 24px 0 !important;
 }
 
-@media (max-width:768px) {
-    #about .about-section h2 {
-        margin: 32px 0 !important;
-    }
+@media (max-width: 768px) {
+  #about .about-section h2 {
+    margin: 32px 0 !important;
+  }
 
-    #about {
-        margin-top: 80px;
-    }
-
+  #about {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
 }

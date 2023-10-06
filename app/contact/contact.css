@@ -1,26 +1,26 @@
-/* #contact {
-    padding: 2% 0;
-} */
+#contact {
+  margin-bottom: 25vh;
+}
 
 #contact .details {
-    padding: 20px;
+  padding: 20px;
 }
 
 #contact .details .box {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px 0;
 }
 
 #contact .details .box .icon i {
-    font-size: 30px;
-    padding-right: 20px;
+  font-size: 30px;
+  padding-right: 20px;
 }
 
-@media (max-width:768px) {
-    #contact {
-        margin-top: 80px;
-    }
-
+@media (max-width: 768px) {
+  #contact {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
 }

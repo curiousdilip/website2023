@@ -1,70 +1,72 @@
-#project {
-    height: auto;
+#projects {
+  height: auto;
+  margin-bottom: 25vh;
 }
 
 .projects {
-    /* background-color: red; */
+  /* background-color: red; */
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
 .work {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .projects .project {
-    border: 1px solid rgb(204, 204, 204);
-    border-radius: 10px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px;
 }
 
 .projects .project img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .projects .project .details {
-    padding: 20px;
+  padding: 20px;
 }
 
 .projects .project .details p {
-    margin: 15px 0 !important;
+  margin: 15px 0 !important;
 }
 
 .projects .project .details .p-link {
-    display: block;
-    margin-bottom: 15px !important;
-    text-decoration: none;
+  display: block;
+  margin-bottom: 15px !important;
+  text-decoration: none;
 }
 
 .projects .project .details .tech-stack h3 {
-    margin-bottom: 15px !important;
+  margin-bottom: 15px !important;
 }
 
 .projects .project .details .tech-stack {
-    display: flex;
+  display: flex;
 }
 
 .projects .project .details .tech-stack li {
-    padding: 5px;
-    background-color: #f0f0f0;
-    color: #000;
-    border: 1px solid rgb(204, 204, 204);
-    margin-right: 10px;
-    border-radius: 5px;
-    font-size: 10px;
+  padding: 5px;
+  background-color: #f0f0f0;
+  color: #000;
+  border: 1px solid rgb(204, 204, 204);
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 10px;
 }
 
-@media (max-width:768px) {
-    .projects {
-        grid-template-columns: 1fr;
-    }
+@media (max-width: 768px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
 
-    #projects {
-        margin-top: 80px;
-    }
+  #projects {
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
 }
