@@ -1,53 +1,52 @@
 .navbar {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .navbar .navbar-brand {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 16.6vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 216px;
 }
 
 .navbar .navbar-brand h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .scrolled .navbar .navbar-brand h1 {
-    color: #fff;
+  color: #fff;
 }
 
 .scrolled .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .scrolled .navbar .nav-link {
-    color: #fff;
+  color: #fff;
 }
 
 .navbar .navbar-toggler {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .scrolled .navbar .navbar-toggler {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 .navbar .navbar-toggler svg {
-    color: #000;
+  color: #000;
 }
 
 .scrolled .navbar .navbar-toggler svg {
-    color: #fff;
+  color: #fff;
 }
 
-@media (max-width:768px) {
-    .navbar .navbar-brand {
-        width: 180px;
-    }
+@media (max-width: 768px) {
+  .navbar .navbar-brand {
+    width: 180px;
+  }
 
-    .navbar .navbar-brand h1 {
-        font-size: calc(1.325rem + .9vw);
-    }
-
+  .navbar .navbar-brand h1 {
+    font-size: calc(1.325rem + 0.9vw);
+  }
 }

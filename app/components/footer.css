@@ -1,26 +1,30 @@
 footer {
-    position: relative;
+  position: relative;
+  margin-top: -20vh;
 }
 
 footer .footer {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 footer .footer .copyright {
-    margin-top: 20px;
-    margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 footer .footer .follow-me a {
-    font-size: 20px;
-    margin-right: 20px;
-    text-decoration: none;
-    color: #000;
+  font-size: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
 }
 
-@media (max-width:768px) {
-    .follow-me {
-        display: flex;
-        justify-content: space-evenly;
-    }
+@media (max-width: 768px) {
+  footer {
+    margin-top: 0;
+  }
+  .follow-me {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
