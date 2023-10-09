@@ -26,22 +26,6 @@
   color: #fff;
 }
 
-.navbar .navbar-toggler {
-  border: 1px solid black;
-}
-
-.scrolled .navbar .navbar-toggler {
-  border: 1px solid white;
-}
-
-.navbar .navbar-toggler svg {
-  color: #000;
-}
-
-.scrolled .navbar .navbar-toggler svg {
-  color: #fff;
-}
-
 @media (max-width: 768px) {
   .navbar .navbar-brand {
     width: 180px;
@@ -50,4 +34,58 @@
   .navbar .navbar-brand h1 {
     font-size: calc(1.325rem + 0.9vw);
   }
+}
+
+.navbar .navbar-toggler {
+  border: none;
+}
+
+.scrolled .navbar .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler span {
+  display: block;
+  background-color: #000;
+  height: 2px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
+}
+
+.scrolled .navbar-toggler span {
+  background-color: #fff;
+}
+
+.navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggler span:nth-child(2) {
+  opacity: 1;
+}
+
+.navbar-toggler span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggler span:nth-child(1) {
+  margin-top: 0.3em;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  transform: translate(18%, -33%) rotate(40deg);
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translate(18%, 33%) rotate(-40deg);
 }
