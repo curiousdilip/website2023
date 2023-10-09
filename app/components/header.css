@@ -43,7 +43,7 @@
 .scrolled .navbar .navbar-toggler {
   border: none;
 }
-
+/* 
 .navbar-toggler span {
   display: block;
   background-color: #000;
@@ -87,5 +87,46 @@
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translate(18%, 33%) rotate(-40deg);
+} */
+
+/* Default styles for all spans */
+.navbar-toggler span {
+  display: block;
+  background-color: #000;
+  height: 2px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
+}
+
+/* Background color for spans when the menu is scrolled */
+.scrolled .navbar-toggler span {
+  background-color: #fff;
+}
+
+/* Default styles for the first span */
+.navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+  margin-top: 0.3em;
+}
+
+/* Styles for the first span when the menu is expanded */
+.navbar-toggler[aria-expanded="true"] span:nth-child(1) {
+  transform: translate(18%, -33%) rotate(40deg);
+}
+
+/* Styles for the second span when the menu is expanded */
+.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+  opacity: 0;
+}
+
+/* Styles for the third span when the menu is expanded */
+.navbar-toggler[aria-expanded="true"] span:nth-child(3) {
   transform: translate(18%, 33%) rotate(-40deg);
 }
