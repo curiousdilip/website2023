@@ -10,7 +10,7 @@ const page = () => {
         <div className="container">
           <div className="row align-items-center" >
             <div className="col-md-8">
-              <h3 className='mb-3'>Hi everyone! <span className="wave">👋🏾</span> </h3>
+              <h2 className='mb-3'>Hi everyone! <span className="wave">👋🏾</span> </h2>
               <p>I'm Dilip Kumar Maurya, a frontend web developer with over a year of experience. I'm currently working as a Web Content Executive at the World Health Organization.</p>
               <p>I'm passionate about technology and computers, and I'm always eager to learn new things. I've previously done freelance work, and I'm always looking for new challenges.</p>
               <ul className='shortcut'>
