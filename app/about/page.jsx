@@ -2,17 +2,12 @@ import React from "react";
 import ProfileCard from "../components/ProfileCard";
 import "./about.css";
 import TimeLine from "../components/TimeLine";
-import { Helmet } from "react-helmet";
 export const metadata = {
   title: "About",
 };
 const page = () => {
   return (
     <>
-      <Helmet>
-        <title>About | Dilip Kumar</title>
-        <link rel="canonical" href="https://www.dilipmaurya.in/about" />
-      </Helmet>
       <section id="about">
         <div className="container">
           <div className="row">
