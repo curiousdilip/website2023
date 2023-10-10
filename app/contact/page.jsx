@@ -40,8 +40,7 @@ const Page = () => {
   return (
     <>
       <Helmet>
-        <title>Contact | Dilip Kumar</title>
-        <link rel="canonical" href="https://www.dilipmaurya.in/contact" />
+        <title>Contact | Dilip Kumar Maurya</title>
       </Helmet>
       <section id="contact">
         <div className="container">
@@ -104,7 +103,7 @@ const Page = () => {
                     <i className="bi bi-telephone"></i>
                   </div>
                   <div className="number">
-                    <h4>Call</h4>
+                    <h3>Call</h3>
                     <p>+91 98997 42615</p>
                   </div>
                 </div>
@@ -114,7 +113,7 @@ const Page = () => {
                     <i className="bi bi-envelope"></i>
                   </div>
                   <div className="mail">
-                    <h4>Send Email</h4>
+                    <h3>Send Email</h3>
                     <p>curiousdilip@gmail.com</p>
                   </div>
                 </div>
@@ -124,7 +123,7 @@ const Page = () => {
                     <i className="bi bi-geo"></i>
                   </div>
                   <div className="location">
-                    <h4>Visit </h4>
+                    <h3>Visit </h3>
                     <p>Dwarka, New Delhi, India</p>
                   </div>
                 </div>

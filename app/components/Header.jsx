@@ -51,9 +51,8 @@ const Header = () => {
   return (
     <header className={scroll}>
       <nav
-        className={`navbar navbar-expand-lg fixed-top ${
-          menuOpen ? "show" : ""
-        }`}
+        className={`navbar navbar-expand-lg fixed-top ${menuOpen ? "show" : ""
+          }`}
       >
         <div className="container">
           <Link href="/" className="navbar-brand" onClick={closeMenu}>
@@ -74,11 +73,11 @@ const Header = () => {
             aria-controls="main-header"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            onClick={toggleMenu} // Toggle mobile menu on button click
+            onClick={toggleMenu}
           >
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
+            <span className="icon-bar top-bar"></span>
+            <span className="icon-bar middle-bar"></span>
+            <span className="icon-bar bottom-bar"></span>
           </button>
           <div
             className={`collapse navbar-collapse ${menuOpen ? "show" : ""}`}

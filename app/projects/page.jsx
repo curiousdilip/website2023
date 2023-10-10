@@ -17,7 +17,7 @@ const Page = () => {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="heading">
-                                <h1>Projects</h1>
+                                <h2>Projects</h2>
                                 <p>Stuff that I have built</p>
                                 <hr />
                             </div>

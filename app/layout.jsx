@@ -28,7 +28,11 @@ export const metadata = {
   },
   metadataBase: new URL('https://www.dilipmaurya.in'),
   alternates: {
-    canonical: '/',
+    canonical: 'https://www.dilipmaurya.in/',
+    '/about': 'https://www.dilipmaurya.in/about',
+    '/projects': 'https://www.dilipmaurya.in/projects',
+    '/resume': 'https://www.dilipmaurya.in/resume',
+    '/contact': 'https://www.dilipmaurya.in/contact',
   },
   openGraph: {
     images: '/profilecardimg.jpeg',
