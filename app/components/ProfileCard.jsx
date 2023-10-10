@@ -11,8 +11,8 @@ const ProfileCard = () => {
                     <Image
                         src="/profilecardimg.jpeg"
                         alt='Profile Card Image'
-                        height={200}
-                        width={500}
+                        height={100}
+                        width={320}
                         className='img-fluid'
                     />
                 </div>
