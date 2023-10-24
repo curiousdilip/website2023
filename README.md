@@ -29,6 +29,45 @@ The repository is organized into several components and pages to create a fully 
 
 6. react-helmet: A library used to manage the title of each page.
 
+## Key Concepts and Technologies
+
+### React
+
+- **React Components**: The website is built using React components to create a modular and reusable structure for each page and component. React's component-based architecture allows for efficient development and maintenance.
+
+### Next.js
+
+- **Server-Side Rendering (SSR)**: Next.js is used to enable server-side rendering for improved performance and SEO. This ensures that pages load quickly and can be indexed by search engines.
+- **Routing**: Next.js provides client-side routing, allowing for seamless navigation between pages without requiring full page reloads.
+- **Dynamic Imports**: Dynamic imports are used to efficiently load components and data on demand, improving initial page load times.
+
+### Styling
+
+- **CSS**: Styles are applied using CSS, with a global stylesheet (`global.css`) defining common styling across the entire website. Component-specific styles are applied as needed.
+
+### Data Management
+
+- **Data Files**: Data files in the `data/` directory are used to populate content on various pages. This modular approach simplifies data management and updates.
+
+### SEO (Search Engine Optimization)
+
+- **`react-helmet`**: The `react-helmet` library is employed to manage the title of each page, which contributes to improved SEO by providing accurate and descriptive titles for search engines.
+
+### Contact Form
+
+- **Form Submission**: A contact form on the Contact page allows visitors to submit their inquiries. Form data is sent to a Google Apps Script URL using the POST method, enabling easy contact.
+- **Asynchronous Request**: The form submission is handled asynchronously, enhancing user experience and preventing full page reloads.
+
+### Styling and Design
+
+- **Global Styling**: A global stylesheet is used to maintain consistent styling across the entire website. Page-specific styles are applied as necessary.
+
+- **Responsive Design**: The website is designed to be responsive, ensuring it displays optimally on various screen sizes and devices.
+
+### Structured Data
+
+- **Structured Data Markup**: Structured data is embedded in the website to improve search engine visibility and enhance the display of rich results, such as site links and featured snippets.
+
 ## Content and Functionality
 
 **Home Page**: The home page provides a warm welcome to visitors and introduces Dilip's role as a web developer. It features a navigation menu for easy access to other sections of the website.
