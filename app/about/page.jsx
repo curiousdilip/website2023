@@ -2,6 +2,7 @@ import React from "react";
 import ProfileCard from "../components/ProfileCard";
 import "./about.css";
 import TimeLine from "../components/TimeLine";
+import Link from "next/link";
 export const metadata = {
   title: "About",
 };
@@ -27,21 +28,20 @@ const page = () => {
               <div className="about-section">
                 <h3>Hi I'm Dilip Kumar</h3>
                 <p>
-                  I am a frontend web developer with more than 1 year of
+                  I am a web developer with more than 1 year of
                   experience, I'm very passionate about technology and
                   computers. I am reliable, can work in a team, and can learn
                   quickly my interests are in frontend web development. In my
-                  free time, I enjoy music, gaming, and reading. As well, I love
-                  to travel and see new places and meet new people.
+                  free time, I enjoy music, gaming, and reading.
                 </p>
                 <h4>Professional milestones of my career:</h4>
                 <TimeLine />
                 <p className="reach-me">
                   You can always reach out to me to have a coffee together and
-                  discuss Code, Community or Collaboration. Ping me on Telegram,
-                  or reach out to me at curiousdilip@gmail.com.
+                  discuss Code, Community or Collaboration. Ping me on <a href="https://t.me/curiousdilip">Telegram</a>,
+                  or reach out to me at <a href="mailto:curiousdilip@gmail.com"> curiousdilip@gmail.com</a>.
                 </p>
-                <p>See more about my working experiences at my resume page.</p>
+                <p>See more about my working experiences at my <Link href="/resume">resume</Link> page.</p>
               </div>
             </div>{" "}
           </div>

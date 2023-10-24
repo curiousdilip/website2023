@@ -1,7 +1,7 @@
 export const timeline = [
   {
     day: "10th September 2023        ",
-    description: "Created 1st React Website for",
+    description: "Created First React Website for",
     projectName: "Ramen Paul",
     link: "https://www.ramenpaul.com/",
   },
@@ -13,7 +13,7 @@ export const timeline = [
   },
   {
     day: "16th February 2022        ",
-    description: "Landed my first job in ",
+    description: "Landed my First Job at ",
     projectName: "Taknik Bharti",
     link: "https://www.taknikbharti.com/",
   },

@@ -9,7 +9,7 @@ const TimeLine = () => {
                 {timeline.map((item, index) => (
                     <li key={index} >
                         <h5 className='day'> {item.day}</h5>
-                        <p>{item.description} <a href="/">{
+                        <p>{item.description} <a href={item.link} target='_blank'>{
                             item.projectName}</a></p>
                     </li>
                 ))}

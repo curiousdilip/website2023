@@ -14,15 +14,25 @@
 
 #about .about-section .reach-me {
   margin: 24px 0 !important;
+
+}
+
+#about .about-section h3 {
+  margin-bottom: 8px !important;
+}
+
+#about .about-section p a {
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
-  #about .about-section h2 {
-    margin: 32px 0 !important;
+  #about .about-section h3 {
+    margin: 16px 0 !important;
   }
 
   #about {
     margin-top: 80px;
     margin-bottom: 0;
   }
+
 }
