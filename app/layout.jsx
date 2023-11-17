@@ -36,8 +36,14 @@ export const metadata = {
   },
   openGraph: {
     images: '/profilecardimg.jpeg',
-    description: "Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.",
-    title: 'Dilip Kumar | Frontend Web Developer',
+    description: {
+      default: 'Hi my name is Dilip Kumar Maurya and I am a Front End Web developer based in New Delhi, India.',
+      template: "%s"
+    },
+    title: {
+      default: 'Dilip Kumar | Frontend Web Developer',
+      template: "%s | Dilip Kumar Maurya"
+    },
     url: 'https://www.dilipmaurya.in',
     siteName: 'Dilip Kumar | Frontend Web Developer',
     locale: 'en_US',
