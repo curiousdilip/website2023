@@ -42,7 +42,7 @@ export const projects = [
     {
         title: 'MPAA - Performing Arts Academy',
         description: `Industry Led Performing Arts Academy, Offering a 3 Year BA (Hons) Degree Musical Theatre Performance Degree with Outstanding employment results.`,
-        imgSrc: '/projects/mpaa.ac.uk.jpg',
+        imgSrc: '/projects/mpaa.png',
         href: 'https://mpaa.ac.uk',
         tech: ["Wordpress", "WP Bakery"]
 
