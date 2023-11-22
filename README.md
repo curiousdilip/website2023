@@ -87,7 +87,7 @@ To use this code for your personal website:
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/curiousdilip/website2023.git
 ```
 
 2. Install dependencies:
