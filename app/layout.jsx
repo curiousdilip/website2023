@@ -5,9 +5,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-export const viewport = {
-  themeColor: 'black',
-}
 export const metadata = {
   title: {
     default: "Dilip Kumar | Web Developer",
@@ -22,7 +19,7 @@ export const metadata = {
   referrer: 'origin-when-cross-origin',
   keywords: ['Dilipmaurya', 'curiousdilip', 'mauryaji'],
   authors: [{ name: 'Dilip Kumar', url: 'https://www.dilipmaurya.in' }],
-  colorScheme: 'system',
+  // colorScheme: 'black',
   formatDetection: {
     email: false,
     address: false,

@@ -1,5 +1,12 @@
 export const projects = [
     {
+        title: 'Dilip Kumar',
+        description: `This is my personal website / portfolio showcasing my skills, resume and project nad you can contact me by filling up your details on the contact page.`,
+        imgSrc: '/projects/dilipmaurya.png',
+        href: 'http://www.dilipmaurya.in',
+        tech: ["Reactjs", "Nextjs"]
+
+    }, {
         title: 'Ramen Paul',
         description: `Trained in England (1993) France(1994) and U.S. (1995-98) Teaching music since last 15 years,authorized teacher of Trinity college, Rock school, Rock and Pop and Royal college, London. `,
         imgSrc: '/projects/ramenpaul.png',
