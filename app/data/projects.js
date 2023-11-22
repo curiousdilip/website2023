@@ -2,7 +2,7 @@ export const projects = [
     {
         title: 'Ramen Paul',
         description: `Trained in England (1993) France(1994) and U.S. (1995-98) Teaching music since last 15 years,authorized teacher of Trinity college, Rock school, Rock and Pop and Royal college, London. `,
-        imgSrc: '/projects/ramenpaul.jpg',
+        imgSrc: '/projects/ramenpaul.png',
         href: 'http://ramenpaul.com',
         tech: ["Reactjs", "Nextjs"]
 
@@ -10,7 +10,7 @@ export const projects = [
     {
         title: 'OXSYS.IN',
         description: `Founded in 2021, OXSYS excels in Oxygen generation through modular PSA technology. 70% self-manufactured, strong supply chain, medical Oxygen expertise.`,
-        imgSrc: '/projects/oxsys.jpg',
+        imgSrc: '/projects/oxsys.png',
         href: 'https://oxsys.in',
         tech: ["Reactjs", "Nextjs"]
 
@@ -18,7 +18,7 @@ export const projects = [
     {
         title: 'Rainbow Consultancy',
         description: `Rainbow Consultancy is a consortium of independent professional consultants with a commitment to provide quality training, evaluation and documentation services to our clients.`,
-        imgSrc: '/projects/rainbow.jpg',
+        imgSrc: '/projects/rainbow.png',
         href: 'https://rainbowconsultancy.in',
         tech: ["HTML", "CSS", "Javascript"]
 
@@ -26,7 +26,7 @@ export const projects = [
     {
         title: 'Word of Guidance',
         description: `Word of Guidance is a site of spiritual resources to assist individuals to know the Lord Jesus Christ who is the Light of the World.`,
-        imgSrc: '/projects/wordofguidance.jpg',
+        imgSrc: '/projects/wordofguidance.png',
         href: 'https://wordofguidance.in/',
         tech: ["Wordpress", "Elementor"]
 
@@ -50,14 +50,14 @@ export const projects = [
     {
         title: 'Pradhanmantri Sangrahalaya',
         description: `The Pradhanmantri Sangrahalaya in New Delhi is a tribute by our nation to the Prime Ministers who rebuilt India after Independence`,
-        imgSrc: '/projects/pmsangrahalaya.jpg',
+        imgSrc: '/projects/pmsangrahalaya.png',
         href: 'https://www.pmsangrahalaya.gov.in/',
         tech: ["HTML", "CSS", "Javascript"]
     },
     {
         title: 'Grace Fellowship Church',
         description: `Grace Fellowship Church, Gwthar NW are the community of God, serving People God’s children in spirit and being.`,
-        imgSrc: '/projects/grace fellowship.jpg',
+        imgSrc: '/projects/gracefellowship.png',
         href: 'https://www.gracefellowship.in',
         tech: ["Wordpress", "WP Bakery"]
 
@@ -66,7 +66,7 @@ export const projects = [
     {
         title: 'LifeAmuses Blog',
         description: `A Lifestyle Blog for an Insight for Home Styling, Trending Fashionable Accessories & Clothing, Beauty & Body Care Tips and Wisdom in Personality Development.`,
-        imgSrc: '/projects/lifeamuses blog.jpg',
+        imgSrc: '/projects/lifeamuses.png',
         href: 'https://www.lifeamuses.com',
         tech: ["PHP", "Codeigniter"]
 
@@ -76,7 +76,7 @@ export const projects = [
         title: 'NLP Minerals Pvt. Ltd.',
         description: `NLP Minerals and Chemicals is an ISO 9001:2015 certified company and
       one of the leading miners, manufacturers & exporters of premium quality natural industrial minerals. `,
-        imgSrc: '/projects/nlp minerals.jpg',
+        imgSrc: '/projects/nlpminerals.png',
         href: 'https://www.nlpminerals.com',
         tech: ["Wordpress"]
 
