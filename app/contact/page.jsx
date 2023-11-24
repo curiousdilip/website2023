@@ -56,8 +56,8 @@ const Page = () => {
             <div className="col-md-8">
               {!formSubmitted ? (
                 <form
-                  action="https://script.google.com/macros/s/AKfycbyLgS0NuKwRbDWDoFgz2FROEOQk6Tc3D-9uxazp4EQct-ENewCyfyRNkmZdB9sdadRZ/exec"
-                  method="POST"
+                  // action="https://script.google.com/macros/s/AKfycbyLgS0NuKwRbDWDoFgz2FROEOQk6Tc3D-9uxazp4EQct-ENewCyfyRNkmZdB9sdadRZ/exec"
+                  // method="POST"
                   onSubmit={handleSubmit}
                 >
                   <input
