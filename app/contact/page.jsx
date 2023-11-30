@@ -1,47 +1,20 @@
-"use client";
-import React, { useState } from "react";
+
 import "./contact.css";
-import { Helmet } from "react-helmet";
+import ContactForm from "../components/ContactForm";
+export const metadata = {
+  title: "Contact",
+  openGraph: {
+    title: "Contact",
+    description: "These are the Projects / Works that I was a part and i have developed some of them from scratch ",
+    images: '/profilecardimg.jpeg',
+  }
+};
 
 const Page = () => {
-  const [formSubmitted, setFormSubmitted] = useState(false);
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-
-    try {
-      const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbyLgS0NuKwRbDWDoFgz2FROEOQk6Tc3D-9uxazp4EQct-ENewCyfyRNkmZdB9sdadRZ/exec",
-        {
-          method: "POST",
-          body: new FormData(event.target),
-        },
-      );
-
-      if (response.ok) {
-        // If the response is successful, set the formSubmitted state to true
-        setFormSubmitted(true);
-        // Display an alert box
-        window.alert("Thank You! \n Form submitted successfully!");
-        // Reset the formSubmitted state after a brief delay (e.g., 2 seconds)
-        setTimeout(() => {
-          setFormSubmitted(false);
-        }, 2000);
-      } else {
-        // Handle errors here if needed
-        console.error("Form submission failed.");
-      }
-    } catch (error) {
-      // Handle network errors here if needed
-      console.error("Network error:", error);
-    }
-  };
 
   return (
     <>
-      <Helmet>
-        <title>Contact | Dilip Kumar Maurya</title>
-      </Helmet>
+
       <section id="contact">
         <div className="container">
           <div className="row">
@@ -54,7 +27,7 @@ const Page = () => {
           </div>
           <div className="row align-items-center">
             <div className="col-md-8">
-              {!formSubmitted ? (
+              {/* {!formSubmitted ? (
                 <form
                   // action="https://script.google.com/macros/s/AKfycbyLgS0NuKwRbDWDoFgz2FROEOQk6Tc3D-9uxazp4EQct-ENewCyfyRNkmZdB9sdadRZ/exec"
                   // method="POST"
@@ -94,7 +67,9 @@ const Page = () => {
                 </form>
               ) : (
                 <p>Thank you for submitting the form!</p>
-              )}
+              )} */}
+              <ContactForm />
+
             </div>
             <div className="col-md-4">
               <div className="details">

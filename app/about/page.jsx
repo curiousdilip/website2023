@@ -3,8 +3,15 @@ import ProfileCard from "../components/ProfileCard";
 import "./about.css";
 import TimeLine from "../components/TimeLine";
 import Link from "next/link";
+
+
 export const metadata = {
   title: "About",
+  openGraph: {
+    title: "About",
+    description: "More About Me showcasing my work Timeline",
+    images: '/profilecardimg.jpeg',
+  }
 };
 const page = () => {
   return (
