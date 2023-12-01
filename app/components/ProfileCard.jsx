@@ -14,6 +14,7 @@ const ProfileCard = () => {
                         height={100}
                         width={390}
                         className='img-fluid'
+                        priority
                     />
                 </div>
                 <div className="details">

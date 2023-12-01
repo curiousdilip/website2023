@@ -2,6 +2,14 @@ import React from 'react'
 import "./home.css"
 import ProfileCard from './components/ProfileCard'
 import Link from 'next/link'
+export const metadata = {
+  title: "Dilip Kumar | Web Developer",
+  openGraph: {
+    title: "Dilip Kumar | Web Developer",
+    description: "Hi my name is Dilip Kumar Maurya and I am a Web developer based in New Delhi, India.",
+    images: '/profilecardimg.jpeg',
+  }
+};
 const page = () => {
 
   return (

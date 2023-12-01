@@ -27,7 +27,7 @@ export const metadata = {
   },
   metadataBase: new URL('https://www.dilipmaurya.in'),
   alternates: {
-    canonical: 'https://www.dilipmaurya.in/',
+    canonical: 'https://www.dilipmaurya.in',
     '/about': 'https://www.dilipmaurya.in/about',
     '/projects': 'https://www.dilipmaurya.in/projects',
     '/resume': 'https://www.dilipmaurya.in/resume',
